@@ -82,5 +82,6 @@ run_analysis <- function() {
         aggr_data <- summarise(data_grouped, across(everything(), mean),.groups="keep") 
         
         write.csv(aggr_data,"aggr_data.csv") ## save to file
+        write.table(aggr_data,"aggr_data.txt",row.name=FALSE)
         print("Aggregated data set created")
 }
