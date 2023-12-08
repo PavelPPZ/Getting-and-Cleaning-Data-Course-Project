@@ -1,0 +1,6 @@
+No new variable were introduced in addition to providedc data sets.
+Variable names were used without modification as they are self-explanatory.
+
+2 variables were named based on data set description: 
+Subject - id of participant, 
+Activity - description of activity type.
